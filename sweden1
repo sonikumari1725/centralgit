@@ -1,4 +1,8 @@
- def add_number (a=10,b=23):
-    return a+b
-result = ('sum is:',add_number())
-print(result)
+s=("PYTHON")
+print("_______________________________________")
+print("by using for loop")
+for ch in s:
+    print("\t{}".format(ch))
+else:
+    print("_______________________________________")
+    
