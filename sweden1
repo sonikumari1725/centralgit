@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 s=("PYTHON")
 print("_______________________________________")
 print("by using for loop")
@@ -6,3 +13,29 @@ for ch in s:
 else:
     print("_______________________________________")
     
+
+
+
+
+#pro#gram for demonstrating the need of continue statement
+s="PYTHON"
+print("by using for loop")
+for ch in s:
+    print("\t{}".format(ch))
+else:
+    print("i am else part of the loop")
+for ch in s:
+    if(ch=="T"):
+        continue
+    print(ch,end="")
+else:
+    print()
+
+
+
+
+
+
+
+
+
